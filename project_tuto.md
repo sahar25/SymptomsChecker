@@ -25,7 +25,7 @@ Guide: * Common    + Sometimes/Rarely    - NO
 
 
 - **Program Input**: Number of patients.
-- **Random Symptom Generation**: Randomly assign true/false for all seven symptoms per  patient.
+- **Random Symptom Generation**: Randomly assign present/absent: true/false for all seven symptoms per  patient.
 - **Diagnosis**: Classify each patient as COVID-19, Cold, Flu, or Other.
 - **Report Generation**: Display <u>counts </u> and <u> percentages</u> for each illness category.
 
@@ -68,7 +68,7 @@ Thank you...
 class Patient {
 public:
     Patient() {
-        // Randomly initialize symptoms (true/false)
+        // Randomly initialize symptoms (present/absent: true/false)
     }
     
 	virtual bool isSick() {};
